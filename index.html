@@ -10,13 +10,43 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
+        <div class="row my-row">
+            <div class="col my-col">
+                This is coled by simply "col" class
+            </div>
+            <div class="col my-col">
+                It will automatically divided the row into equal parts
+            </div>
+        </div>
+        <div class="row my-row">
+            <div class="col-lg-3 col-md-6 col-sm-12 my-col">
+                well ofc you can also setup the exact grids for each dic
+            </div>
+            <div class="col-lg-9 col-md-6 col-sm-12 my-col">
+                like 3 + 9
+            </div>
+        </div>
+        <div class="row my-row">
+            <div class="col-lg-4 col-md-6 col-sm-12 my-col">
+                If the grid doesn't add up to 12
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 my-col">
+                there will be blank col left
+            </div>
+        </div>
+        <div class="row my-row">
+            <div class="col-lg-4 offset-2 col-md-6 col-sm-12 my-col">
+                But you can also use 'offset' class for the same effect
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 my-col">
+                like this
+            </div>
+        </div>
+
         <script src="" async defer></script>
     </body>
 </html>
